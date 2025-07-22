@@ -7,7 +7,7 @@ nav:
   - 常见问题疑难解答: 常见问题疑难解答.md
   - 网页雷达搭建和使用: 网页雷达搭建和使用.md
 theme:
-  name: material # 主题名称，Material已经是最优秀的选择了，相信我。
+  name: material # 主题名称，Material已经是最优秀的选择了，相信我
   logo:  assets/images/CLS.png # logo 图片
   language: en # 默认语言
   features: # 功能  
