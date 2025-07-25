@@ -1,13 +1,14 @@
 site_name: CLS Valorant Docs
 nav:
   - Home: index.md
+  - 梯子使用教程: 梯子使用教程.md
   - CLS菜单文档: CLS菜单文档.md
   - CLS开启教程 - 国服(ACE): CLS开启教程 - 国服(ACE).md
   - CLS开启教程 - 港服(RIOT): CLS开启教程 - 港服(RIOT).md
   - 常见问题疑难解答: 常见问题疑难解答.md
   - 网页雷达搭建和使用: 网页雷达搭建和使用.md
 theme:
-  name: material # 主题名称，Material已经是最优秀的选择了，相信我
+  name: material # 主题名称，Material已经是最优秀的选择了，相信我。
   logo:  assets/images/CLS.png # logo 图片
   language: en # 默认语言
   features: # 功能  
