@@ -8,50 +8,48 @@ nav:
   - 常见问题疑难解答: 常见问题疑难解答.md
   - 网页雷达搭建和使用: 网页雷达搭建和使用.md
 theme:
-  name: material # 主题名称，Material已经是最优秀的选择了，相信我。
-  logo:  assets/images/CLS.png # logo 图片
-  language: en # 默认语言
-  features: # 功能  
-    - announce.dismiss # 可以叉掉公告的功能
-    - content.tooltips # 不太清楚呢这个
-    - navigation.expand # 默认展开导航栏
-    - navigation.footer # 底部导航栏
-    - navigation.indexes # 索引按钮可以直接触发文件，而不是只能点击其下属选项浏览，这个功能可以给对应的section提供很好的预览和导航功能
-    # - navigation.instant # 瞬间加载 - 如果这个开着，那么语言切换后就会跳转至首页，所以我关掉了
-    - navigation.instant.prefetch # 预加载
-    - navigation.instant.progress # 进度条
-    - navigation.path # 导航路径， 目前好像没啥用
-    - navigation.sections # 导航栏的section
-    - navigation.tabs # 顶级索引被作为tab
-    - navigation.tabs.sticky # tab始终可见
-    - navigation.top # 开启顶部导航栏
-    - navigation.tracking # 导航栏跟踪
-    - search.highlight # 搜索高亮
-    - search.share # 搜索分享
-    - toc.follow # 目录跟踪-页面右侧的小目录
-    # - toc.integrate # 目录跟踪集成到左侧大目录中
+  name: material 
+  logo:  assets/images/CLS.png 
+  language: en 
+  features: 
+    - announce.dismiss
+    - content.tooltips 
+    - navigation.expand 
+    - navigation.footer 
+    - navigation.indexes 
+    - navigation.instant.prefetch 
+    - navigation.instant.progress 
+    - navigation.path
+    - navigation.sections 
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top 
+    - navigation.tracking 
+    - search.highlight 
+    - search.share
+    - toc.follow
   palette:
-    - media: "(prefers-color-scheme)" # 主题颜色
+    - media: "(prefers-color-scheme)" 
       scheme: slate
       primary: black
       accent: indigo
       toggle:
         icon: material/link
         name: Switch to light mode
-    - media: "(prefers-color-scheme: light)" # 浅色
+    - media: "(prefers-color-scheme: light)" 
       scheme: default
       primary: indigo
       accent: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)" # 深色
+    - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
       accent: indigo
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
-  font: # 字体，大概率不需要换
+  font: 
     text: Roboto
     code: Roboto Mono
