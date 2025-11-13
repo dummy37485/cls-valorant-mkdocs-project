@@ -1,7 +1,7 @@
 site_name: CLS Valorant Docs
 nav:
   - Home: index.md
-  - 梯子使用教程: 梯子使用教程.md
+  # - 梯子使用教程: 梯子使用教程.md
   - CLS菜单文档: CLS菜单文档.md
   - CLS开启教程 - 国服(ACE): CLS开启教程 - 国服(ACE).md
   - CLS开启教程 - 港服(RIOT): CLS开启教程 - 港服(RIOT).md
